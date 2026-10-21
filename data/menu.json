@@ -1,0 +1,129 @@
+{
+  "_comment": "Sample cafeteria menu. Replace with real school menu data when available. Nutrition values approximate USDA FoodData Central figures per typical serving.",
+  "breakfast": [
+    {
+      "id": "b1", "name": "Scrambled Eggs", "category": "protein",
+      "calories": 140, "protein_g": 12, "carbs_g": 1, "fat_g": 10, "fiber_g": 0, "sugar_g": 1, "sodium_mg": 170,
+      "vitamin_tags": ["vitamin_a", "vitamin_d"], "allergens": ["eggs"]
+    },
+    {
+      "id": "b2", "name": "Oatmeal with Berries", "category": "carb",
+      "calories": 180, "protein_g": 6, "carbs_g": 32, "fat_g": 3, "fiber_g": 5, "sugar_g": 8, "sodium_mg": 90,
+      "vitamin_tags": ["fiber", "vitamin_c"], "allergens": []
+    },
+    {
+      "id": "b3", "name": "Whole Wheat Toast", "category": "carb",
+      "calories": 120, "protein_g": 4, "carbs_g": 22, "fat_g": 2, "fiber_g": 3, "sugar_g": 2, "sodium_mg": 200,
+      "vitamin_tags": [], "allergens": ["wheat"]
+    },
+    {
+      "id": "b4", "name": "Greek Yogurt", "category": "protein",
+      "calories": 100, "protein_g": 17, "carbs_g": 6, "fat_g": 0, "fiber_g": 0, "sugar_g": 6, "sodium_mg": 60,
+      "vitamin_tags": ["calcium"], "allergens": ["milk"]
+    },
+    {
+      "id": "b5", "name": "Fresh Orange Slices", "category": "fruit",
+      "calories": 60, "protein_g": 1, "carbs_g": 15, "fat_g": 0, "fiber_g": 3, "sugar_g": 12, "sodium_mg": 0,
+      "vitamin_tags": ["vitamin_c", "potassium"], "allergens": []
+    },
+    {
+      "id": "b6", "name": "Peanut Butter Toast", "category": "carb",
+      "calories": 220, "protein_g": 8, "carbs_g": 24, "fat_g": 11, "fiber_g": 3, "sugar_g": 5, "sodium_mg": 230,
+      "vitamin_tags": [], "allergens": ["peanuts", "wheat"]
+    }
+  ],
+  "lunch": [
+    {
+      "id": "l1", "name": "Grilled Chicken Breast", "category": "protein",
+      "calories": 165, "protein_g": 31, "carbs_g": 0, "fat_g": 3.6, "fiber_g": 0, "sugar_g": 0, "sodium_mg": 74,
+      "vitamin_tags": ["potassium"], "allergens": []
+    },
+    {
+      "id": "l2", "name": "Baked Salmon", "category": "protein",
+      "calories": 206, "protein_g": 22, "carbs_g": 0, "fat_g": 13, "fiber_g": 0, "sugar_g": 0, "sodium_mg": 59,
+      "vitamin_tags": ["vitamin_d", "vitamin_a"], "allergens": ["fish"]
+    },
+    {
+      "id": "l3", "name": "Cheese Quesadilla", "category": "protein",
+      "calories": 300, "protein_g": 14, "carbs_g": 28, "fat_g": 15, "fiber_g": 2, "sugar_g": 2, "sodium_mg": 560,
+      "vitamin_tags": ["calcium"], "allergens": ["milk", "wheat"]
+    },
+    {
+      "id": "l4", "name": "Steamed Brown Rice", "category": "carb",
+      "calories": 215, "protein_g": 5, "carbs_g": 45, "fat_g": 1.8, "fiber_g": 3.5, "sugar_g": 0, "sodium_mg": 10,
+      "vitamin_tags": [], "allergens": []
+    },
+    {
+      "id": "l5", "name": "French Fries", "category": "carb",
+      "calories": 365, "protein_g": 4, "carbs_g": 48, "fat_g": 17, "fiber_g": 4, "sugar_g": 0, "sodium_mg": 320,
+      "vitamin_tags": ["vitamin_c"], "allergens": []
+    },
+    {
+      "id": "l6", "name": "Steamed Broccoli", "category": "veggie",
+      "calories": 55, "protein_g": 4, "carbs_g": 11, "fat_g": 0.5, "fiber_g": 5, "sugar_g": 2, "sodium_mg": 30,
+      "vitamin_tags": ["vitamin_c", "vitamin_a", "fiber"], "allergens": []
+    },
+    {
+      "id": "l7", "name": "Garden Salad", "category": "veggie",
+      "calories": 35, "protein_g": 2, "carbs_g": 7, "fat_g": 0.2, "fiber_g": 3, "sugar_g": 3, "sodium_mg": 20,
+      "vitamin_tags": ["vitamin_a", "vitamin_c", "iron"], "allergens": []
+    },
+    {
+      "id": "l8", "name": "Peanut Noodles", "category": "carb",
+      "calories": 380, "protein_g": 12, "carbs_g": 50, "fat_g": 14, "fiber_g": 3, "sugar_g": 8, "sodium_mg": 480,
+      "vitamin_tags": [], "allergens": ["peanuts", "wheat", "soybeans"]
+    },
+    {
+      "id": "l9", "name": "Shrimp Fried Rice", "category": "protein",
+      "calories": 310, "protein_g": 16, "carbs_g": 42, "fat_g": 8, "fiber_g": 2, "sugar_g": 1, "sodium_mg": 540,
+      "vitamin_tags": ["iron"], "allergens": ["shellfish", "eggs", "soybeans"]
+    },
+    {
+      "id": "l10", "name": "Apple Slices", "category": "fruit",
+      "calories": 65, "protein_g": 0, "carbs_g": 17, "fat_g": 0, "fiber_g": 3, "sugar_g": 13, "sodium_mg": 0,
+      "vitamin_tags": ["vitamin_c", "fiber"], "allergens": []
+    },
+    {
+      "id": "l11", "name": "Chocolate Chip Cookie", "category": "dessert",
+      "calories": 220, "protein_g": 2, "carbs_g": 30, "fat_g": 11, "fiber_g": 1, "sugar_g": 20, "sodium_mg": 150,
+      "vitamin_tags": [], "allergens": ["wheat", "eggs", "milk"]
+    },
+    {
+      "id": "l12", "name": "Sesame Tofu Stir-fry", "category": "protein",
+      "calories": 190, "protein_g": 15, "carbs_g": 10, "fat_g": 11, "fiber_g": 3, "sugar_g": 3, "sodium_mg": 420,
+      "vitamin_tags": ["calcium", "iron"], "allergens": ["soybeans", "sesame"]
+    }
+  ],
+  "dinner": [
+    {
+      "id": "d1", "name": "Turkey Meatballs", "category": "protein",
+      "calories": 210, "protein_g": 24, "carbs_g": 6, "fat_g": 10, "fiber_g": 1, "sugar_g": 1, "sodium_mg": 430,
+      "vitamin_tags": ["iron"], "allergens": ["eggs", "wheat"]
+    },
+    {
+      "id": "d2", "name": "Whole Wheat Pasta", "category": "carb",
+      "calories": 220, "protein_g": 8, "carbs_g": 43, "fat_g": 1.5, "fiber_g": 6, "sugar_g": 2, "sodium_mg": 5,
+      "vitamin_tags": ["fiber"], "allergens": ["wheat"]
+    },
+    {
+      "id": "d3", "name": "Roasted Sweet Potato", "category": "carb",
+      "calories": 180, "protein_g": 4, "carbs_g": 41, "fat_g": 0.1, "fiber_g": 6.6, "sugar_g": 13, "sodium_mg": 70,
+      "vitamin_tags": ["vitamin_a", "potassium"], "allergens": []
+    },
+    {
+      "id": "d4", "name": "Grilled Vegetable Medley", "category": "veggie",
+      "calories": 90, "protein_g": 3, "carbs_g": 15, "fat_g": 3, "fiber_g": 5, "sugar_g": 6, "sodium_mg": 40,
+      "vitamin_tags": ["vitamin_c", "vitamin_a", "fiber"], "allergens": []
+    },
+    {
+      "id": "d5", "name": "Milk (8oz)", "category": "drink",
+      "calories": 150, "protein_g": 8, "carbs_g": 12, "fat_g": 8, "fiber_g": 0, "sugar_g": 12, "sodium_mg": 105,
+      "vitamin_tags": ["calcium", "vitamin_d"], "allergens": ["milk"]
+    },
+    {
+      "id": "d6", "name": "Mixed Berries", "category": "fruit",
+      "calories": 70, "protein_g": 1, "carbs_g": 17, "fat_g": 0.3, "fiber_g": 4, "sugar_g": 10, "sodium_mg": 0,
+      "vitamin_tags": ["vitamin_c", "fiber"], "allergens": []
+    }
+  ]
+}
